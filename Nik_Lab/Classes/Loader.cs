@@ -18,17 +18,17 @@ namespace WorkShop_Nikiforov.Classes
 
                     Recipe Recipe_n = new Recipe(strlist[0]);
 
-                    for (int l = 1; l < strlist.Length; l += 2)
+                    for (int l = 1; l < strlist.Length; l+=2)
                     {
-                        Item Product = new Item(strlist[l], Convert.ToInt32(strlist[l + 1]));
-                        Recipe_n.MaterialsForRecipe.Add(Product);
+                        Item baget = new Item(strlist[l], Convert.ToInt32(strlist[l+1]));
+                        Recipe_n.MaterialsForRecipe.Add(baget);
                     }
 
                     Recipes.Add(Recipe_n);
                 }
             }
         }
-        public static void LoadProductsToMaterialsFromTxt(List<Materials> MaterialsInStorage)
+        public static void LoadMaterialsFromTxt(List<Materials> MaterialsInStorage)
         {
             string path = @"C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\Materials.txt";
             using (StreamReader sr = new StreamReader(path, System.Text.Encoding.Default))

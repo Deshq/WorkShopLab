@@ -8,8 +8,12 @@ namespace WorkShop_Nikiforov.Classes
 {
     class WorkShop
     {
-        public static List<Materials> MaterialsInStorage = new List<Materials>();
-        public static List<Recipe> Recipes = new List<Recipe>();
-        public static List<Order> Orders = new List<Order>();
+        private static List<Materials> materialsInStorage = new List<Materials>();
+        private static List<Recipe> recipes = new List<Recipe>();
+        private static List<Order> orders = new List<Order>();
+
+        internal static List<Materials> MaterialsInStorage { get => materialsInStorage; set => materialsInStorage = value; }
+        internal static List<Recipe> Recipes { get => recipes; set => recipes = value; }
+        internal static List<Order> Orders { get => orders; set => orders = value; }
     }
 }

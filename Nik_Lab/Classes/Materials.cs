@@ -8,11 +8,15 @@ namespace WorkShop_Nikiforov.Classes
 {
     class Materials : Item
     {
-        public int Price;
+        private int price;
+
+        public int Price { get => price; set => price = value; }
 
         public Materials(string Name, int Quantity, int Price) : base(Name, Quantity)
         {
             this.Price = Price;
         }
+
+        
     }
 }

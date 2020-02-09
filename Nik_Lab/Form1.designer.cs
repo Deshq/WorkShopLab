@@ -141,7 +141,7 @@
             this.TileCompute.Name = "TileCompute";
             this.TileCompute.Size = new System.Drawing.Size(197, 46);
             this.TileCompute.TabIndex = 8;
-            this.TileCompute.Text = "Compute";
+            this.TileCompute.Text = "Invoice";
             this.TileCompute.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.TileCompute.TileImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.TileCompute.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -163,7 +163,7 @@
             this.TextBoxQuantity.CustomButton.UseSelectable = true;
             this.TextBoxQuantity.CustomButton.Visible = false;
             this.TextBoxQuantity.Lines = new string[0];
-            this.TextBoxQuantity.Location = new System.Drawing.Point(660, 199);
+            this.TextBoxQuantity.Location = new System.Drawing.Point(687, 199);
             this.TextBoxQuantity.MaxLength = 32767;
             this.TextBoxQuantity.Name = "TextBoxQuantity";
             this.TextBoxQuantity.PasswordChar = '\0';
@@ -197,7 +197,7 @@
             // 
             this.TrackBarQuantity.BackColor = System.Drawing.Color.Transparent;
             this.TrackBarQuantity.LargeChange = 1;
-            this.TrackBarQuantity.Location = new System.Drawing.Point(579, 199);
+            this.TrackBarQuantity.Location = new System.Drawing.Point(606, 199);
             this.TrackBarQuantity.Minimum = 1;
             this.TrackBarQuantity.Name = "TrackBarQuantity";
             this.TrackBarQuantity.Size = new System.Drawing.Size(75, 23);
@@ -210,7 +210,7 @@
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.Location = new System.Drawing.Point(422, 197);
+            this.metroLabel1.Location = new System.Drawing.Point(519, 199);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(81, 25);
             this.metroLabel1.TabIndex = 4;
@@ -222,7 +222,7 @@
             // 
             this.LabelChooseCake.AutoSize = true;
             this.LabelChooseCake.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.LabelChooseCake.Location = new System.Drawing.Point(422, 81);
+            this.LabelChooseCake.Location = new System.Drawing.Point(388, 77);
             this.LabelChooseCake.Name = "LabelChooseCake";
             this.LabelChooseCake.Size = new System.Drawing.Size(78, 25);
             this.LabelChooseCake.TabIndex = 3;
@@ -234,9 +234,9 @@
             // 
             this.ComboBoxCakes.FormattingEnabled = true;
             this.ComboBoxCakes.ItemHeight = 23;
-            this.ComboBoxCakes.Location = new System.Drawing.Point(525, 77);
+            this.ComboBoxCakes.Location = new System.Drawing.Point(472, 77);
             this.ComboBoxCakes.Name = "ComboBoxCakes";
-            this.ComboBoxCakes.Size = new System.Drawing.Size(189, 29);
+            this.ComboBoxCakes.Size = new System.Drawing.Size(242, 29);
             this.ComboBoxCakes.TabIndex = 2;
             this.ComboBoxCakes.UseSelectable = true;
             this.ComboBoxCakes.SelectedIndexChanged += new System.EventHandler(this.metroComboBox1_SelectedIndexChanged_1);

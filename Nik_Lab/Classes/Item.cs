@@ -8,8 +8,12 @@ namespace WorkShop_Nikiforov.Classes
 {
     class Item
     {
-        public string Name;
-        public int Quantity;
+        private string name;
+        private int quantity;
+
+        public string Name { get => name; set => name = value; }
+        public int Quantity { get => quantity; set => quantity = value; }
+
         public Item()
         { }
         public Item(string Name, int Quantity)

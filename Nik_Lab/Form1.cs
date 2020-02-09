@@ -24,7 +24,7 @@ namespace WorkShop_Nikiforov
                 ComboBoxCakes.Items.Add(R.Name);
             }
 
-            Loader.LoadProductsToMaterialsFromTxt(WorkShop.MaterialsInStorage);                 
+            Loader.LoadMaterialsFromTxt(WorkShop.MaterialsInStorage);                 
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -104,7 +104,7 @@ namespace WorkShop_Nikiforov
             else
 
             {
-                MetroFramework.MetroMessageBox.Show(this, Order.CostСalculation(Order.Basket), "Lack of products, estimated price: " + Order.CostСalculation(WorkShop.MaterialsInStorage).ToString() + "$", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MetroFramework.MetroMessageBox.Show(this, Order.CostСalculation(Order.Basket), "Error, not enough materials, estimated price: " + Order.CostСalculation(WorkShop.MaterialsInStorage).ToString() + "$", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             Order.Clear();
 

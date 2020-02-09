@@ -8,11 +8,15 @@ namespace WorkShop_Nikiforov.Classes
 {
     class Order : Item
     {
-        public static int Total;
-        public static string BasketStr;
-        public Recipe RecipeLink;
+        private static int total;
+        private static string basketStr;
+        private Recipe recipeLink;
+        private static Dictionary<string, int> basket = new Dictionary<string, int>();
 
-        public static Dictionary<string, int> Basket = new Dictionary<string, int>();
+        public static int Total { get => total; set => total = value; }
+        public static string BasketStr { get => basketStr; set => basketStr = value; }
+        internal Recipe RecipeLink { get => recipeLink; set => recipeLink = value; }
+        public static Dictionary<string, int> Basket { get => basket; set => basket = value; }
 
         public Order(string Name, int Quantity, Recipe RecipeLink) : base(Name, Quantity)
         {
