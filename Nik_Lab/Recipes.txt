@@ -1,0 +1,5 @@
+Wood Baguettes;Wood;3;Varnish;1
+Metal Baguettes;Metal profile;5;Varnish;2
+Plastic Baguettes;Plastic profile;2;Paint;1
+
+
