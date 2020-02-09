@@ -84,5 +84,13 @@ namespace WorkShop_Nikiforov.Classes
             return true;
         }
 
+        public static void Clear()
+        {
+            Basket.Clear();
+            Total = 0;
+            BasketStr = "";
+
+        }
+
     }
 }

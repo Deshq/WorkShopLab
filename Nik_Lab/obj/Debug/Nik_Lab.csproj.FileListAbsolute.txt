@@ -1,12 +1,14 @@
-C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.csprojAssemblyReference.cache
-C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\NikiforovLab.MainForm.resources
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.Properties.Resources.resources
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.csproj.GenerateResource.cache
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.csproj.CoreCompileInputs.cache
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\Nik_Lab.exe.config
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\Nik_Lab.exe
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\Nik_Lab.pdb
-C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\MaterialSkin.dll
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.csproj.CopyComplete
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.exe
 C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.pdb
+C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\WorkShop_Nikiforov.Form1.resources
+C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\MetroFramework.Design.dll
+C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\MetroFramework.dll
+C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Desh\Desktop\Projects\Nik_Lab\Nik_Lab\obj\Debug\Nik_Lab.csprojAssemblyReference.cache
