@@ -23,7 +23,66 @@ namespace WorkShop_Nikiforov.Classes
 
         public Order() { }
 
-        
+        public static void GenBasketOfProd(List<Order> Orders)
+        {
+            foreach (Order o in Orders)
+            {
+                foreach (Item i in o.RecipeLink.MaterialsForRecipe)
+                {
+                    if (Basket.ContainsKey(i.Name))
+                    {
+                        Basket[i.Name] += i.Quantity * o.Quantity;
+                    }
+                    else
+                    {
+                        Basket.Add(i.Name, i.Quantity * o.Quantity);
+                    }
+                }
+            }
+        }
+
+        public static int CostСalculation(List<Materials> MaterialsInStorage)
+        {
+            foreach (KeyValuePair<string, int> c in Basket)
+            {
+                foreach (Materials i in MaterialsInStorage)
+                {
+                    if (c.Key == i.Name)
+                    {
+                        Total += i.Price * c.Value;
+                    }
+                }
+            }
+            return Total;
+
+        }
+
+        public static string CostСalculation(Dictionary<string, int> Basket)
+        {
+            foreach (KeyValuePair<string, int> c in Basket)
+            {
+                BasketStr += (c.Key + " - " + c.Value + "\n");
+            }
+            return BasketStr;
+        }
+
+        public static bool AvailabilityMaterials(List<Materials> MaterialsInStorage)
+        {
+            foreach (KeyValuePair<string, int> c in Basket)
+            {
+                foreach (Materials i in MaterialsInStorage)
+                {
+                    if (c.Key == i.Name)
+                    {
+                        if (c.Value > i.Quantity)
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
+        }
 
     }
 }
